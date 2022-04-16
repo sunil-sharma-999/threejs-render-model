@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.10.2",
+    "three": "^0.139.2"
+  },
+  "name": "threejs-cube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack",
+    "run:build": "webpack serve ./docs/main.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
